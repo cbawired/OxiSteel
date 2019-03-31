@@ -1,0 +1,24 @@
+p{
+    text-align: justify;
+}
+
+.parallax-container {
+    height: 450px;
+  }
+#contacto{
+    background-image: url();
+}
+
+.collapsible-header{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
