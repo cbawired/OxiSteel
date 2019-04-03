@@ -1,0 +1,19 @@
+#Google AddSense
+User-agent: Mediapartners-Google
+Disallow:
+
+#Global
+User-agent: *
+Disallow: /css/
+Disallow: /imagenes/
+Disallow: /info/
+Disallow: /js/
+Disallow: /mail/
+Disallow: /mailadmin/
+Disallow: /reportes/
+
+
+
+/.well-known/acme-challenge/
+
+Sitemap: http://www.oxisteel.com/sitemap.xml

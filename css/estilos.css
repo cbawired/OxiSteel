@@ -1,24 +1,114 @@
-p{
-    text-align: justify;
-}
+    
 
-.parallax-container {
-    height: 450px;
-  }
-#contacto{
-    background-image: url();
-}
+    .imagenes-home{
+        
+        height: 30rem;
+        
+    }
+    
 
-.collapsible-header{
-    background-color: transparent;
-    border-color: transparent;
-}
 
-a{
-    text-decoration: none;
-    color: white;
-}
 
-h2{
-    font-family: 'Oswald', sans-serif;
-}
+    .oxisteel {
+        margin-left: 30%;
+        opacity: 0;
+        margin-top: 15%;
+        z-index: 101;
+        width: 60rem;
+        height: 10rem;
+        
+        
+        position: fixed;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%  {
+                
+                left:0px; 
+                top:0px;
+                opacity: 1;
+                width: 600px;
+                height: 150px;
+                
+            }
+        25% {
+                
+                left:0px; 
+                top:0px;
+                opacity: 1;
+                width: 600px;
+                height: 150px;
+            }
+        50% {
+                
+                left:0px; 
+                top:0px;
+                opacity: 1;
+                width: 600px;
+                height: 150px;
+            }
+        75% {
+                
+                left:-200px; 
+                top:-200px;
+                width: 400px;
+                height: 100px;
+            }
+        100%{
+                
+                left:-200px; 
+                top:-200px;
+                width: 0px;
+                height: 0px;
+                opacity: 0;
+            }
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+        0%  {
+                
+                left:0px; 
+                top:0px;
+                opacity: 1;
+                width: 600px;
+                height: 150px;
+                
+            }
+        25% {
+                
+                left:0px; 
+                top:0px;
+                opacity: 1;
+                width: 600px;
+                height: 150px;
+            }
+        50% {
+                
+                left:0px; 
+                top:0px;
+                opacity: 1;
+                width: 600px;
+                height: 150px;
+            }
+        75% {
+                
+                left:-200px; 
+                top:-200px;
+                width: 400px;
+                height: 100px;
+            }
+        100%{
+                
+                left:-200px; 
+                top:-200px;
+                width: 0px;
+                height: 0px;
+                opacity: 0;
+            }
+    }
